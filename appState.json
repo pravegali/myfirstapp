@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "e1c1d642-acd3-4021-9555-dbc0ecacd8fd": {
+        "id": "e1c1d642-acd3-4021-9555-dbc0ecacd8fd",
+        "parent": null,
+        "name": "myfirstapp",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "bd34762e-91c6-4469-8e43-f6f8f3430322"
+        ],
+        "isRemovable": false,
+        "filePath": "myfirstapp"
+      },
+      "bd34762e-91c6-4469-8e43-f6f8f3430322": {
+        "id": "bd34762e-91c6-4469-8e43-f6f8f3430322",
+        "parent": "e1c1d642-acd3-4021-9555-dbc0ecacd8fd",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "myfirstapp/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "e1c1d642-acd3-4021-9555-dbc0ecacd8fd",
+    "openFiles": [
+      "bd34762e-91c6-4469-8e43-f6f8f3430322"
+    ],
+    "currentFileId": "bd34762e-91c6-4469-8e43-f6f8f3430322",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "myfirstapp",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1571247867481
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "myfirstapp",
+      "url": "https://github.com/pravegali/myfirstapp"
+    }
+  }
+}
